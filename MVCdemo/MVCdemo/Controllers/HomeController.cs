@@ -14,5 +14,10 @@ namespace MVCdemo.Controllers
             string msg = "Hello world";
             return msg;
         }
+
+        public string Demo()
+        {
+            return "Gde je ActionResult koji k...";
+        }
     }
 }
